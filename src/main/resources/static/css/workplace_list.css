@@ -1,0 +1,36 @@
+.main {
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+select {
+    font-size: 30px;
+}
+
+#buttons {
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#add-button {
+    text-align: right;
+    border: none;
+    padding: 25px 32px;
+    font-size: 36px;
+    cursor: pointer;
+    margin-top: 20px;
+}

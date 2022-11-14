@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    	<link rel="stylesheet" type="text/css" href="workplace.css" media="all" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="global_nav">
+        <ul>
+          <li><a href="./kintai_input.html" class="nav_item">勤怠入力</a></li>
+          <li><a href="./workplace.html" class="nav_item">勤務場所登録</a></li>
+		  <li><a href="./workplace_list.html" class="nav_item">勤務場所一覧</a></li>
+          <li><a href="./contact_address.html" class="nav_item">連絡先登録</a></li>
+		  <li><a href="./attendance_history.html" class="nav_item">勤怠履歴一覧</a></li>
+          <li><a href="./attendance_list.html" class="nav_item">勤怠状況一覧表示</a></li>
+          <li><a href="./login.html" class="nav_item">ログアウト</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="main_contents">
+        <div class="main_contents_title">
+          <h1>勤務場所登録</h1>
+        </div>
+        事業所登録
+        <select id="workplace">
+          <option value="1">本社</option>
+          <option value="2">支社</option>
+          <option value="3">営業所</option>
+        </select>
+        <input type="button" value="登録" onclick="registWorkplace();"><br><br>
+        部署登録
+        <select id="department">
+          <option value="1">営業部</option>
+          <option value="2">総務部</option>
+          <option value="3">人事部</option>
+        </select>
+        <input type="button" value="登録" onclick="registDepartment();"><br>
+      </div>
+    </div>
+  </body>
+</html>
