@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style_global.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style_user_edit.css" media="all" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="global_nav">
+        <ul>
+          <li><a href="./user_manage.html" class="nav_item">ユーザー管理</a></li>
+          <li><a href="./work_place_manage.html" class="nav_item">勤務場所管理</a></li>          
+          <li><a href="./work_time_summary.html" class="nav_item">勤務時間集計</a></li>
+          <li><a href="./login.html" class="nav_item">ログアウト</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="main_contents">
+        <div class="main_contents_title">
+          <h1>ユーザー新規登録</h1>
+        </div>
+        <div class="user-edit">
+          <form action="user_edit.html" method="post">
+            <div class="user-edit-item">
+              <label for="name">名前</label>
+              <input type="text" id="name" value="" />
+            </div>
+            <div class="user-edit-item">
+              <label for="email">ログインID</label>
+              <input type="text" id="login-id" value="" />
+            </div>
+            <div class="user-edit-item">
+              <label for="password">パスワード</label>
+              <input type="password" name="password" id="password" value="" />
+            </div>
+          </form>
+        </div>
+          <div class="add-button"><button>新規登録</button></div>
+      </div>
+    </div>
+  </body>
+</html>

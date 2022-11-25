@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style_global.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style_contact_address.css" media="all" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="global_nav">
+        <ul>
+          <li><a href="./kintai.html" class="nav_item">勤怠入力</a></li>
+          <li><a href="./workplace_list.html" class="nav_item">勤務場所一覧</a></li>
+          <li><a href="./workplace.html" class="nav_item">勤務場所登録</a></li>
+          <li><a href="./contact_address.html" class="nav_item">連絡先登録</a></li>
+          <li><a href="./attendance_history.html" class="nav_item">勤怠履歴一覧</a></li>
+          <li><a href="./attendance_list.html" class="nav_item">勤怠状況一覧</a></li>
+          <li><a href="./bbs.html" class="nav_item">掲示板</a></li>
+          <li><a href="./login.html" class="nav_item">ログアウト</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="main_contents">
+        <div class="main_contents_title">
+          <h1>連絡先登録</h1>
+        </div>
+        <div class="main_contents_body">
+          <form class="h-adr">
+            <table class="main_contents_table">
+              <span class="p-country-name" style="display:none;">Japan</span>
+              <tr>
+                <th>電話番号</th>
+                <td><input type="text" name="tel" id="tel" placeholder="000-0000-0000"/></td>
+              </tr>
+              <tr>
+                <th>メールアドレス</th>
+                <td><input type="text" name="mail" id="mail" placeholder="○○○○○○○@○○○○"/></td>    
+              </tr>
+              <tr><td>&nbsp;</td></tr>
+              <tr>
+                <th>郵便番号</th>
+                <td>
+                  <input type="text"  name="postalNumber"  class="p-postal-code" placeholder="○○○"   size="3">&nbsp;-&nbsp;<input type="text" class="p-postal-code" placeholder="○○○○" size="4">
+                </td>
+              </tr>
+              <tr>
+                <th>都道府県</th>
+                <td><input type="text" class="p-region" placeholder="○○県"/></td>
+              </tr>
+              <tr>
+                <th>市区町村</th>
+                <td>
+                  <input type="text" class="p-locality" placeholder="○○市○○町"/>
+                </td>
+              </tr> 
+              <tr>
+                <th>丁目番地</th>
+                <td><input type="text" class="p-street-address" placeholder="○丁目○○"/></td>
+              </tr>
+              <tr>
+                <th>建物,部屋番号</th>
+                <td><input type="text" class="p-extended-address" placeholder="○○マンション○○○号室"/></td>
+              </tr>
+              <tr>
+                <th>備考</th>
+                <td><textarea name="remarks" cols="30" rows="5" placeholder="備考を入力して下さい。"></textarea></td>
+              </tr>
+            </table>
+            <input type="button" value="登録" onclick="registContactAddress();" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style_global.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style_work_place_manage.css" media="all" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="global_nav">
+        <ul>
+          <li><a href="./user_manage.html" class="nav_item">ユーザー管理</a></li>
+          <li><a href="./work_place_manage.html" class="nav_item">勤務場所管理</a></li>          
+          <li><a href="./work_time_summary.html" class="nav_item">勤務時間集計</a></li>
+          <li><a href="./login.html" class="nav_item">ログアウト</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="main_contents">
+        <div class="main_contents_title">
+          <h1>部署編集</h1>
+        </div>
+        <form>
+          <div class="main_contents_form">
+          <table>
+            <tr>
+              <td>
+                <label for="department_name">事業所
+              </td>
+              <td>
+                <select id="department_name" name="department_name" >
+                  <option>
+                    本社
+                  </option>
+                  <option>
+                    支社
+                  </option>
+                  <option>
+                    営業所
+                  </option>
+                </select>
+              </td>
+            </td>
+            <tr>
+              <td>
+                部署名
+              </td>
+              <td>
+                <input type="text" id="department_name" value="選択した部署名"/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                電話番号
+              </td>
+              <td>
+                <input type="text" id="phone" value="選択した部署の電話番号"/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                メールアドレス
+              </td>
+              <td>
+                <input type="text" id="email" value="選択した部署のメールアドレス"/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                備考
+              </td>
+              <td>
+                <textArea id="note"></textArea>
+              </td>
+            </tr>
+            </div>
+            </div>
+          </table>
+          <div class="buttons">
+            <div class="update-button"><button>更新</button></div>
+            <div class="delete-button"><button>削除</button></div>
+          </div>
+        </form>
+      </div>
+    </div>
+   </body>
+</html>

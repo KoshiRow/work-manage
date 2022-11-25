@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+body {
+    background-color: #f0f0f0;
+    margin: 100px;
+}
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 100%;
+}
+table td, th {
+	border: 1px solid black;
+}
+
+.nav_item:hover {
+	opacity:0.5;
+}
+
+.header .global_nav {
+	position:absolute;
+	top:0;
+	right:10px;
+}
+
+.header .global_nav li {
+	float:left;
+    list-style: none;
+}
+
+.header .global_nav li a {
+	float:left;
+	width:129px;
+	height:41px;
+	padding-top:28px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	color:#000;
+    background-color: #CCC;
+	border:1px solid rgb(0, 0, 0);
+}
+
+input[type="button"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.update-button button, .delete-button button, .add-button button{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.add-button button{
+    margin-top: 30px;
+}

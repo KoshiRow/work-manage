@@ -1,0 +1,20 @@
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#add {
+    text-align: center;
+    margin-top: 160px;
+}
+
+.main {
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style_global.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style_work_time_summary.css" media="all" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="global_nav">
+        <ul>
+          <li><a href="./user_manage.html" class="nav_item">ユーザー管理</a></li>
+          <li><a href="./work_place_manage.html" class="nav_item">勤務場所管理</a></li>          
+          <li><a href="./work_time_summary.html" class="nav_item">勤務時間集計</a></li>
+          <li><a href="./login.html" class="nav_item">ログアウト</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="main_contents">
+        <div class="main_contents_title">
+          <h1></h1>
+        </div>
+        <div id="buttons" >
+          <button id="to-previous-month">先月へ</button>
+          <button id="to-next-month">次月へ</button>
+        </div>
+        <table class="user-table">
+          <thead>
+            <tr>
+              <th>名前</th>
+              <th>勤務時間</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th><a href="./attendance_history.html">山田太郎</a></th>
+              <th>50:00</th>
+            </tr>
+            <tr>
+              <th><a href="./attendance_history.html">名無し1</a></th>
+              <th>55:00</th>
+            </tr>
+            <tr>
+              <th><a href="./attendance_history.html">名無し2</a></th>
+              <th>85:00</th>
+            </tr>
+            <tr>
+              <th><a href="./attendance_history.html">名無し3</a></th>
+              <th>25:00</th>
+            </tr>
+          </tbody>
+        </table>  
+      </div>
+    </div>
+    <script src="SuperDate.js"></script>
+    <script src="work_time_summary.js"></script>
+  </body>
+</html>

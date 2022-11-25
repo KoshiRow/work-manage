@@ -1,0 +1,12 @@
+.form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.form-title {
+    font-size: 20px;
+    text-align: center;
+}

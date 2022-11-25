@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style_global.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style_work_place_manage.css" media="all" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="global_nav">
+        <ul>
+          <li><a href="./user_manage.html" class="nav_item">ユーザー管理</a></li>
+          <li><a href="./work_place_manage.html" class="nav_item">勤務場所管理</a></li>          
+          <li><a href="./work_time_summary.html" class="nav_item">勤務時間集計</a></li>
+          <li><a href="./login.html" class="nav_item">ログアウト</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="main_contents">
+        <div class="main_contents_title">
+          <h1>勤務場所一覧</h1>
+        </div>
+        <div id="add-button">
+          <button><a href="office_add.html" style="text-decoration:none;color:#ffffff" >事業所登録</a></button>
+          <button><a href="department_add.html" style="text-decoration:none;color:rgb(255, 255, 255)" >部署登録</a></button>
+        </div>
+        <div class="main_contents_body">
+          <table class="date-calender">
+            <thead>
+            </thead>
+            <tbody>
+                <tr>
+                  <td rowspan="3" width="40%"><a href="office_edit.html">本社</a></td>
+                  <td><a href="department_edit.html">部署1</a></td>
+                </tr>
+                <tr>
+                  <td><a href="department_edit.html">部署2</a></td>
+                </tr>
+                <tr>
+                  <td><a href="department_edit.html">部署3</a></td>
+                </tr>
+            </tbody>
+          </table>
+          <table class="date-calender">
+            <thead>
+            </thead>
+            <tbody>
+                <tr>
+                  <td rowspan="4" rowspan="3" width="40%"><a href="office_edit.html">支社</a></td>
+                  <td><a href="department_edit.html">部署1</a></td>
+                </tr>
+                <tr>
+                  <td><a href="department_edit.html">部署2</td>
+                </tr>
+                <tr>
+                  <td><a href="department_edit.html">部署3</a></td>
+                </tr>
+                <tr>
+                  <td><a href="department_edit.html">部署4</a></td>
+                </tr>
+            </tbody>
+            <br/><br/>
+            <table class="date-calender">
+              <thead>
+              </thead>
+            <br/><br/>
+            <tbody>
+                <tr>
+                  <td rowspan="4" rowspan="3" width="40%"><a href="office_edit.html">営業所</a></td>
+                  <td><a href="department_edit.html">部署1</a></td>
+                </tr>
+                <tr>
+                  <td><a href="department_edit.html">部署2</a></td>
+                </tr>
+                <tr>
+                  <td><a href="department_edit.html">部署3</a></td>
+                </tr>
+                <tr>
+                  <td><a href="department_edit.html">部署4</a></td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="SuperDate.js"></script>
+    <script src="attendanceHistory.js"></script>
+   </body>
+</html>

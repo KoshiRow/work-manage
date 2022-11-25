@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style_global.css" media="all" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="global_nav">
+        <ul>
+          <li><a href="./user_manage.html" class="nav_item">ユーザー管理</a></li>
+          <li><a href="./work_place_manage.html" class="nav_item">勤務場所管理</a></li>          
+          <li><a href="./work_time_summary.html" class="nav_item">勤務時間集計</a></li>
+          <li><a href="./login.html" class="nav_item">ログアウト</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="main_contents">
+        <div class="main_contents">
+          <div class="main_contents_title">
+            <h1>事業所新規登録</h1>
+          </div>
+          <div class="main_contents_body">
+            <form class="h-adr">
+              <table class="main_contents_table">
+                <span class="p-country-name" style="display:none;">Japan</span>
+                <tr>
+                  <th>代表電話番号</th>
+                  <td><input type="text" name="tel" id="tel" placeholder="000-0000-0000"/></td>
+                </tr>
+                <tr>
+                  <th>メールアドレス</th>
+                  <td><input type="text" name="mail" id="mail" placeholder="○○○○○○○@○○○○"/></td>    
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <th>郵便番号</th>
+                  <td>
+                    <input type="text"  name="postalNumber"  class="p-postal-code" placeholder="○○○"   size="3">&nbsp;-&nbsp;<input type="text" class="p-postal-code" placeholder="○○○○" size="4">
+                  </td>
+                </tr>
+                <tr>
+                  <th>所在地 都道府県</th>
+                  <td><input type="text" class="p-region" placeholder="○○県"/></td>
+                </tr>
+                <tr>
+                  <th>所在地 市区町村</th>
+                  <td>
+                    <input type="text" class="p-locality" placeholder="○○市○○町"/>
+                  </td>
+                </tr> 
+                <tr>
+                  <th>所在地 丁目番地</th>
+                  <td><input type="text" class="p-street-address" placeholder="○丁目○○"/></td>
+                </tr>
+                <tr>
+                  <th>所在地 番地以降</th>
+                  <td><input type="text" class="p-extended-address" placeholder="○○○ビル○○階"/></td>
+                </tr>
+                <tr>
+                  <th>備考</th>
+                  <td><textarea name="remarks" cols="30" rows="5" placeholder="備考を入力して下さい。"></textarea></td>
+                </tr>
+              </table>
+              <div class="add-button"><button>更新</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+   </body>
+</html>

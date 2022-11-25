@@ -1,0 +1,24 @@
+.user_manage {
+    margin-top: 160px;
+    font-size: 30px;
+    text-align: center;
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+table thead {
+    background-color: #818681;
+    color: white;
+    height: 40px;
+}
+#add-button {
+    text-align: right;
+    color: #000;
+}

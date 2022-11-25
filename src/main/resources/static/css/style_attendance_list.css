@@ -1,0 +1,28 @@
+#now-time {
+	font-size:30px;
+	margin-bottom: 20px;
+	font-weight: 900;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+}
+.tooltip p{
+    margin:0;
+}
+.description {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1.6em;
+    color: #fff;
+    border-radius: 5px;
+    background: rgb(59, 59, 59);
+    width: 180px;
+}
+.tooltip:hover .description{
+    display: inline-block;
+    top: -70px;
+    left: -60px;
+}
