@@ -44,17 +44,42 @@ attandances tableを参照して出勤ステータスが表示できる
 
 
 ## users table
-userId
+user_id
 password
+user_name　
+division_id //所属部署
+
+## divisions table
+division_id
+//部署名
+//部署の住所をカラムに入れるかを決める
+//部署の連絡先をカラムに入れるかを決める
 
 
 ## attandaces table
+user_id
+attendance_time or att_time or start_time//出勤時刻
+end_time //退勤時刻
+//休憩開始時刻
+//休憩終了時刻
+//勤務時間をカラムに入れるかを決める
+//休憩時間をカラムに入れるかを決める
+//出勤状況
 
 
 ## workplaces table
+user_id
+//勤務場所名
 
 
-## addresses table
+## contact_addresses table
+user_id
+//電話番号
+//メールアドレス
+//県名
+//市区町村
+//番地
+
 
 
 
