@@ -1,0 +1,22 @@
+.main {
+    margin: 150px;
+    text-align: center;
+}
+
+select {
+    font-size: 30px;
+}
+
+#buttons {
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}

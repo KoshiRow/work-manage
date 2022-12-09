@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="global.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="workplace_manage.css" media="all" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="global_nav">
+        <ul>
+          <li><a href="./user_list.html" class="nav_item">ユーザー管理</a></li>
+          <li><a href="./workplace_manager.html" class="nav_item">勤務場所管理</a></li>          
+          <li><a href="./worktime_total.html" class="nav_item">勤務時間集計</a></li>
+          <li><a href="./login.html" class="nav_item">ログアウト</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="main_contents">
+        <div class="main_contents_title">
+          <h1>部署新規登録</h1>
+        </div>
+        <form>
+          <div class="main_contents_form">
+            <div class="main_contents_form_item">
+              <label for="department_name">事業所</label>
+              <select id="department_name" name="department_name"></select>
+            </div>
+            <br>            
+            <br/>            
+            <div class="main_contents_form_item">
+              <label>部署名</label>
+              <input type="text" id="department_name"/>
+            </div>
+            <div class="main_contents_form_item">
+              <label>電話番号</label>
+              <input type="text" id="phone"/>
+            </div>
+            <div class="main_contents_form_item">
+              <label>メールアドレス</label>
+              <input type="text" id="email"/>
+            </div>
+            <div class="main_contents_form_item">
+              <label>備考</label>
+              <textArea id="note"></textArea>
+            </div>
+          </div>
+          <div class="main_contents_form_button">
+            <button type="submit">新規登録</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="SuperDate.js"></script>
+    <script src="attendanceHistory.js"></script>
+   </body>
+</html>
