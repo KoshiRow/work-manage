@@ -1,0 +1,30 @@
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.parent {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.user-edit-item {
+    margin-top: 35px;
+    height: 40px;
+}
+input {
+    height: 30px;
+    font-size: 30px;
+}
+.main {
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: center;
+}

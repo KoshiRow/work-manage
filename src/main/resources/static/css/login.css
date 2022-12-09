@@ -1,0 +1,16 @@
+body {
+    background-color: #f0f0f0;
+    font-size: 12px;
+    margin: 100px;
+}
+#form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+.form-title {
+    font-size: 20px;
+    text-align: center;
+}
