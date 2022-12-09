@@ -9,6 +9,6 @@ public class HelloController {
 
     @RequestMapping("/")
     String home() {
-        return "Hello world kota branch!";
+        return "Hello world kota!";
     }
 }
