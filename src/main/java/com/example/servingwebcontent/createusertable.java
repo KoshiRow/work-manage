@@ -1,7 +1,5 @@
 package com.example.servingwebcontent;
 
-import java.time.DateTimeException;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,31 +9,31 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "usersTable")
-public class createtable {
+public class createusertable {
 
     @Id
     @Column(name = "enmno")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long Id;
-    private String username;
+
+    private Long user_id;
+    private String user_name;
     private String password;
-    private boolean login;
-    private DateTimeException date;
+    private Long division_id;
 
     public Long getId() {
-        return Id;
+        return user_id;
     }
 
-    public void setId(Long id) {
-        this.Id = Id;
+    public void setId(Long user_id) {
+        this.user_id = user_id;
     }
 
     public String getName() {
-        return username;
+        return user_name;
     }
 
-    public void setName(String username) {
-        this.username = username;
+    public void setName(String user_name) {
+        this.user_name = user_name;
     }
 
     public String getPass() {
@@ -46,19 +44,11 @@ public class createtable {
         this.password = password;
     }
 
-    public boolean getLogin() {
-        return login;
+    public Long getDiv() {
+        return division_id;
     }
 
-    public void setLogin(boolean login) {
-        this.login = login;
-    }
-
-    public DateTimeException getDate() {
-        return date;
-    }
-
-    public void setDate(DateTimeException date) {
-        this.date = date;
+    public void setDiv(Long division_id) {
+        this.division_id = division_id;
     }
 }
