@@ -70,6 +70,7 @@ end_time //退勤時刻
 ## workplaces table
 user_id
 //勤務場所名
+//データ登録、更新日時
 
 
 ## contact_addresses table
