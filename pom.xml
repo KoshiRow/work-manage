@@ -59,23 +59,7 @@
         	<groupId>org.springframework.boot</groupId>
         	<artifactId>spring-boot-starter-data-jpa</artifactId>
     	</dependency>
-		<dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-		<compile>org.springframework.boot:spring-boot-starter-data-jpa</compile>
-		<compile>org.springframework.boot:spring-boot-starter-thymeleaf</compile>
-		<compile>org.springframework.boot:spring-boot-starter-web</compile>
-		<runtime>org.springframework.boot:spring-boot-devtools</runtime>
-		<runtime>mysql:mysql-connector-java</runtime>
-		<compileOnly>org.projectlombok:lombok</compileOnly>
-		<provideRuntime>org.springframework.boot:spring-boot-starter-tomcat</provideRuntime>
-		<testCompile>org.springframework.boot:spring-boot-starter-test</testCompile>
+		
 	</dependencies>
 	
 
