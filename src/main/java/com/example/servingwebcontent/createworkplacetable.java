@@ -11,7 +11,6 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "workplaceTable")
-
 public class createworkplacetable {
 
     @Id
