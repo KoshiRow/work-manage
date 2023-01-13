@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.5</version>
+		<version>2.7.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
@@ -55,27 +55,16 @@
   			<artifactId>spring-security-test</artifactId>
   			<scope>test</scope>
 		</dependency>
-			<dependency>
+		<dependency>
         	<groupId>org.springframework.boot</groupId>
         	<artifactId>spring-boot-starter-data-jpa</artifactId>
     	</dependency>
 		<dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-		<compile>org.springframework.boot:spring-boot-starter-data-jpa</compile>
-		<compile>org.springframework.boot:spring-boot-starter-thymeleaf</compile>
-		<compile>org.springframework.boot:spring-boot-starter-web</compile>
-		<runtime>org.springframework.boot:spring-boot-devtools</runtime>
-		<runtime>mysql:mysql-connector-java</runtime>
-		<compileOnly>org.projectlombok:lombok</compileOnly>
-		<provideRuntime>org.springframework.boot:spring-boot-starter-tomcat</provideRuntime>
-		<testCompile>org.springframework.boot:spring-boot-starter-test</testCompile>
+        	<groupId>com.h2database</groupId>
+        	<artifactId>h2</artifactId>
+        	<scope>runtime</scope>
+    	</dependency>
+		
 	</dependencies>
 	
 
